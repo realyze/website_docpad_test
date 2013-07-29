@@ -1,37 +1,11 @@
-# [Twitter Bootstrap](http://twitter.github.com/bootstrap/) skeleton for [DocPad](https://github.com/bevry/docpad)
-Simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions.
+## What IS that?
+It's an example of the cool things one might do when he abuses DocPad enough.
 
+## Pardon?
+Take a look at the [test page](https://github.com/realyze/website_docpad_test/blob/master/src/documents/pages/test.html.jade). This is what you need to write as the content author. You can use Markdown. The image there is just to show you're not *limited* to Markdown.
 
-## Getting Started
+Now look at the [test layout](https://github.com/realyze/website_docpad_test/blob/master/src/layouts/intro_layout.jade). This is what the HTML guys will write to give the page some structure.
 
-1. [Install DocPad](https://github.com/bevry/docpad)
+The DocPad rendering machinery will take care of the, uh, rendering and will produce HTML partials we can use in the Angular app.
 
-1. Clone the project and run the server
-
-  ``` bash
-  git clone git://github.com/docpad/twitter-bootstrap.docpad.git
-  cd twitter-bootstrap.docpad
-  npm install
-  docpad run
-  ```
-
-1. [Open http://localhost:9778/](http://localhost:9778/)
-
-1. Start hacking away by modifying the `src` directory
-
-
-## License
-
-This skeleton is made ["public domain"](http://en.wikipedia.org/wiki/Public_domain) using the [Creative Commons Zero](http://creativecommons.org/publicdomain/zero/1.0/), as such before you publish your website you should place your desired license here and within the `LICENSE.md` file.
-
-If you are wanting to open-source your website, we suggest using the [Creative Commons Attribution License](http://creativecommons.org/licenses/by/3.0/) for content and the [MIT License](http://creativecommons.org/licenses/MIT/) for code. In which case you'd probably want to use the following as your license:
-
-  Unless stated otherwise, all content is licensed under the [Creative Commons Attribution License](http://creativecommons.org/licenses/by/3.0/) and code licensed under the [MIT License](http://creativecommons.org/licenses/MIT/), © [Your Name](http://your.website)
-
-If you are wanting to close-source your website, we'd suggest using the following:
-
-  Copyright [Your Name](http://your.website). All rights reserved.
-
-Other included things such as themes and libraries are likely already licensed by their own invidual licenses, so be sure to respect their licenses too.
-
-Thanks, the DocPad team loves you.
+Neat, uh?
