@@ -1,0 +1,9 @@
+extends ../../layouts/test_layout
+
+block content
+  :t(render="markdown")
+    here is some *markdown*
+
+block append content2
+  :t(render="markdown")
+    here is some *markdown* in content 2

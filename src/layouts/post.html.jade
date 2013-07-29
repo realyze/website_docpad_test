@@ -6,6 +6,11 @@ article#post.post
   h1= document.title
   .post-content!= content
 
+article
+  p Here comes the test block
+block test_block
+  p welcome
+
 footer
   if document.relatedDocuments && document.relatedDocuments.length
     section#related
